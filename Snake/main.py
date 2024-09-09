@@ -45,15 +45,18 @@ while game:
     time.sleep(0.1)
     snake.move()
 
+    #make the snake biger when he eat food
     if snake.head.distance(food) < 15:
         food.newfood()
         snake.big()
         scoore.newscoore()
 
+    # Detect Collisions with the walls
     if (snake.head.xcor() > 300 or snake.head.xcor() < -300 or snake.head.ycor() > 300 or snake.head.ycor() < -300):
         scoore.gameover()
         game = False
 
+        #restart if the player want
         play_again = screen.textinput("Game Over", "Do you want to play again? (yes/no)").lower()
         if play_again == "yes":
             game = True
@@ -69,15 +72,10 @@ while game:
                 game = False
                 scoore.gameover()
 
+                #restart if the player want
                 play_again = screen.textinput("Game Over", "Do you want to play again? (yes/no)").lower()
                 if play_again == "yes":
                     game = True
                     reset_game()
-
-    if scoore.score >= 50:
-        game = False
-        scoore.gameover()
-
-
 
 screen.exitonclick()
