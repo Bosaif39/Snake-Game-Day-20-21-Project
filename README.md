@@ -18,7 +18,7 @@ This file defines the `Scoore` class, which manages the game's score. The `Scoor
 - **Initialization (`__init__`)**: Sets up the score display.
 - **`update_s` method**: Updates the displayed score.
 - **`newscoore` method**: Increments the score and updates the display.
-- **`gameover` method**: Displays a game over message, and indicates a win if the score is 50 or higher.
+- **`gameover` method**: Displays a game over message.
 
 ### 3. `snake.py`
 This file defines the `Snake` class, which represents the snake in the game. The `Snake` class includes:
