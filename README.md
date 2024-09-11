@@ -45,5 +45,5 @@ This is the main file that runs the game. It:
 
 ## **Example**
 
-![alt text]()
+![alt text](https://github.com/Bosaif39/example-pics/blob/main/D_20_21.png?raw=true)
 
