@@ -38,12 +38,13 @@ This is the main file that runs the game. It:
 - Offers the option to restart the game after a game over.
 
 
+## **Example**
+
+![alt text](https://github.com/Bosaif39/example-pics/blob/main/D_20_21.png?raw=true)
+
+
 ## Requirements
 
 - Python 3.x
 - `turtle` module (comes pre-installed with Python)
-
-## **Example**
-
-![alt text](https://github.com/Bosaif39/example-pics/blob/main/D_20_21.png?raw=true)
 
